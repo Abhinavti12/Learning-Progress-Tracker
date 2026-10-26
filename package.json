@@ -1,0 +1,14 @@
+{
+  "name": "learning-progress-tracker",
+  "version": "1.0.0",
+  "description": "Learning Progress Tracker — A MERN-Based Application for Planning Goals, Tracking Study Sessions, and Evaluating Consistency",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test:backend": "node server/test_e2e_progress.js"
+  },
+  "keywords": ["mern", "mongodb", "express", "react", "node", "learning-tracker"],
+  "author": "",
+  "license": "ISC"
+}
